@@ -1,4 +1,0 @@
-GET http://localhost:/api/tasks
-Accept: application/json
-
-###

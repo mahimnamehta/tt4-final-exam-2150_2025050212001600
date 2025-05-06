@@ -1,7 +1,7 @@
-namespace Backend.Data
+namespace backend.Data
 {
     using Microsoft.EntityFrameworkCore;
-    using Backend.Models;
+    using backend.Models;
 
     public class AppDbContext : DbContext
     {
@@ -10,6 +10,6 @@ namespace Backend.Data
 
         }
 
-        public DbSet<TaskItem> Tasks { get; set; }
+        public DbSet<Application> Applications { get; set; }
     }
 }
